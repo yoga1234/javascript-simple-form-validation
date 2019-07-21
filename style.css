@@ -1,0 +1,80 @@
+body, html{
+  background-color: grey;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 30px auto;
+  width: 90%;
+  height: 90%;
+  display: flex;
+}
+/* Left side style */
+.left-side{
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px 0 10px;
+}
+.left-heading{
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.left-sub-heading{
+  width: 75%;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+.left-image{
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+/* Right side style */
+.right-side{
+  width: 50%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+.right-image{
+  width: 20%;
+  height: 25%;
+  margin: 80px auto 40px auto;
+}
+.right-heading{
+  margin: 0 auto;
+  color: #fff;
+}
+.right-side form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-side form input[type=text], .right-side form input[type=password]{
+  width: 59%;
+  height: 30px;
+  border: none;
+  margin: 5px auto;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.button-submit{
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+}
